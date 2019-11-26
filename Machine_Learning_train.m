@@ -76,6 +76,6 @@ for epoch = 1:100
     Weight1 = Weight1 - D1;
     
 end
-
+Error = Per_Err(error3);
 % This trained weight updates this 'Trained_Network.mat'
 save('Trained_Network.mat');

@@ -29,4 +29,6 @@ for i = 1:size(Weight2,2)
     end
 end
 
-error3 = output - correct_Output;
+err = correct_Output - output;
+
+Error = Per_Err(err);
